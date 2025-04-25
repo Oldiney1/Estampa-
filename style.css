@@ -1,0 +1,75 @@
+:root{
+    --primeira-cor: #1A1C1A;
+    --segunda-cor: #CF4646;
+    --terceira-cor: #D9D9D9;
+}
+
+*{
+    font-size: 24px !important;
+}
+
+body{
+    background-color: var(--terceira-cor);
+    font-family: "Just Me Again Down Here", cursive !important;
+}
+
+.navbar{
+    background-color: var(--primeira-cor);
+}
+
+.navbar-brand{
+    font-size: 35px !important;
+}
+
+a{
+    color: white !important;
+}
+
+.dropdown-menu{
+    background-color: var(--segunda-cor) !important;
+}
+
+.dropdown-item:hover{
+    background-color: var(--primeira-cor) !important;
+}
+
+#carouselExampleAutoplaying .carousel-inner {
+    height: 80vh;
+}
+
+#carouselExampleAutoplaying .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.sobre {
+ font-family: 'Poppins', sans-serif;
+}
+
+.sobre h2 {
+  font-size: 35px !important;
+  font-weight: bold;
+}
+
+.sobre p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+
+.camisetas h2 {
+    color: #222;
+    font-size: 35px !important;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease;
+  }
+  
